@@ -1,0 +1,18 @@
+x=input("enter a string:")
+x=x.lower() 
+l=list(x)
+v=0
+c=0
+for i in l:
+    if(i == 'a'or i == 'e'or i == 'i'or i == 'o'or i =='u'):
+        v=v+1
+    else:
+        c=c+1
+print("The number of consonant:",c)
+
+
+Output:
+enter a string: aditya
+aditya
+The number of consonant: 3
+> 
